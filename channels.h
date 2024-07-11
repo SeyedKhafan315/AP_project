@@ -7,6 +7,17 @@
 #include <thread>
 #include <QSharedDataPointer>
 #include <QWidget>
+#include <fstream>
+#include <string>
+
+using namespace std;
+
+typedef struct Player {
+    char name[255];
+    char pass[255];
+    char email[255];
+
+} Player;
 
 class ChannelsData;
 
@@ -26,8 +37,6 @@ public:
     void saveGame(QString);
 
     // void (*funPtr[])(QString) = {logIn, singUp, gameReq, gameStart, saveGame};
-
-
     //~Channels();
 
 signals:
