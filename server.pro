@@ -11,21 +11,34 @@ QT += network
 
 SOURCES += \
     channels.cpp \
+    gamemusic.cpp \
+    gamewindow.cpp \
     game.cpp \
     main.cpp \
+    music.cpp \
     mainwindow.cpp \
+    waitingwindow.cpp \
     server.cpp
 
 HEADERS += \
     channels.h \
+    gamemusic.h \
+    gamewindow.h \
     game.h \
+    music.h \
     mainwindow.h \
+    waitingwindow.h \
     server.h
 
 FORMS += \
+    gamewindow.ui \
+    waitingwindow.ui \
     mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    MyResource.qrc
