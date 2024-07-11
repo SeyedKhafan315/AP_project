@@ -36,7 +36,7 @@ private:
 signals:
 public:
     static int idb;
-    void klickedonNode(QString);
+    void klickedonNode(QString,int);
     void chekStatus(QString,QString);
 
 

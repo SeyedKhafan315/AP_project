@@ -84,5 +84,6 @@ Game::Game(QObject *parent):QObject(parent),gameId(idb++)
         }
     }
 }
-void klickedonNode(QString loc, int id );
+
+
 
