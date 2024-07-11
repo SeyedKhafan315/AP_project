@@ -11,6 +11,7 @@ QT += network
 
 SOURCES += \
     channels.cpp \
+    gamemusic.cpp \
     game.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -18,12 +19,16 @@ SOURCES += \
 
 HEADERS += \
     channels.h \
+    gamemusic.h \
     game.h \
     mainwindow.h \
     server.h
 
 FORMS += \
     mainwindow.ui
+
+RESOURCES += \
+    MyResource.qrc
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
