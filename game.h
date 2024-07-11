@@ -18,7 +18,7 @@ private:
             o,
             _,
             No,
-        };
+        }ns;
         enum nodeType{
             Bomb_4,
             Option_4,
@@ -26,8 +26,9 @@ private:
             Bomb_S,
             Number,
             Short,
-        };
+        }nt;
     }node[3][3];
+
 
 
 
