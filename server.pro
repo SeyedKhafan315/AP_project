@@ -15,6 +15,7 @@ SOURCES += \
     gamewindow.cpp \
     game.cpp \
     main.cpp \
+    music.cpp \
     mainwindow.cpp \
     server.cpp
 
@@ -23,6 +24,7 @@ HEADERS += \
     gamemusic.h \
     gamewindow.h \
     game.h \
+    music.h \
     mainwindow.h \
     server.h
 
