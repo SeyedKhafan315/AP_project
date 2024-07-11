@@ -12,6 +12,7 @@ QT += network
 SOURCES += \
     channels.cpp \
     gamemusic.cpp \
+    gamewindow.cpp \
     game.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -20,11 +21,13 @@ SOURCES += \
 HEADERS += \
     channels.h \
     gamemusic.h \
+    gamewindow.h \
     game.h \
     mainwindow.h \
     server.h
 
 FORMS += \
+    gamewindow.ui \
     mainwindow.ui
 
 RESOURCES += \
