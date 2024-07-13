@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>resize-picture/BG1005833www.tiktarh.com_.jpg</file>
+        <file>resize-picture/m-145167385782863c50b240eb6c.jpg</file>
+        <file>resize-picture/1678824974-1.jpg</file>
+        <file>resize-picture/19_tif_6000x3375_CMYK_300dpi-8-4474.jpg</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>Mix_got_Music.mp3</file>
+        <file>Knight_sword.mp3</file>
+    </qresource>
+</RCC>
